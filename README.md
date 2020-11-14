@@ -29,9 +29,9 @@ docker ps
 ## Add a File in the Shared Volume to be Read in the Backend
 ```
 docker exec -it backend bash 
->>> echo "990 991 992 993 994 995" >> /datavolume/data.txt
->>> cat /datavolume/data.txt
->>> exit
+root@21a11dbd9a11:/usr/src/app# echo "990 991 992 993 994 995" >> /datavolume/data.txt
+root@21a11dbd9a11:/usr/src/app# cat /datavolume/data.txt
+root@21a11dbd9a11:/usr/src/app# exit
 ```
 
 ## Restart the Backend
