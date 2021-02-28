@@ -5,5 +5,3 @@ COPY . .
 RUN npm install
 EXPOSE 3010
 CMD [ "node", "backendserver.js" ]
-
-
