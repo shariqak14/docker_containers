@@ -1,4 +1,4 @@
-# Docker Tutorial
+# Docker Tutorial :whale:
 
 I wrote this tutorial to expand my understanding of some of the more advanced functionality available in Docker. I have found that most tutorials try to overcomplicate this stuff with unnecessary requirements. In an attempt to alleviate the aforementioned problem, this tutorial uses a very simple React frontend and a very simple Express backend to demonstrate the use of a bridge network and a shared volume.
 
